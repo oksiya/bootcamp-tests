@@ -10,11 +10,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/8.4.0/mocha.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/4.3.4/chai.min.js"></script>
     <script>mocha.setup('bdd');</script>
+
+    <!-- Include function files -->
+    <script src="./functions/greet.js"></script>
+    <script src="./functions/isFromBellville.js"></script>
+    <script src="./functions/regCheck.js"></script>
+
+    <!-- Include test files -->
     <script src="./test/greet.test.js"></script>
     <script src="./test/isFromBellville.test.js"></script>
     <script src="./test/regCheck.test.js"></script>
-    <!-- Add other test files here -->
+
     <script>mocha.run();</script>
 </body>
 </html>
-
